@@ -1,0 +1,15 @@
+{
+  "name": "submodules",
+  "globIgnorePaths": ["**/__tests__"],
+  "tree": {
+    "$className": "Folder",
+    "Charm": { "$path": "./charm/packages/charm/src" },
+    "CharmSync": { "$path": "./charm/packages/charm-sync/src" },
+    "gt": { "$path": "./greentea/src" },
+    "Lyra": { "$path": "./lyra/src" },
+    "Promise": { "$path": "./promise/lib" },
+    "t": { "$path": "./t.luau" },
+    "Vide": { "$path": "./vide/src" },
+    "VideCharm": { "$path": "./charm/packages/vide-charm/src" }
+  }
+}
